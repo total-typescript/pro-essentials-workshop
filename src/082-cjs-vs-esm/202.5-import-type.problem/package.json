@@ -1,0 +1,13 @@
+{
+  "name": "117-const-enums.explainer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "Matt Pocock",
+  "devDependencies": {}
+}
