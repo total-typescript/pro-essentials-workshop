@@ -46,8 +46,8 @@ importers:
         version: 3.22.0
     devDependencies:
       '@total-typescript/exercise-cli':
-        specifier: 0.5.1
-        version: 0.5.1(typescript@5.4.5)(vitest@1.6.0(@types/node@20.5.0)(jsdom@21.1.2))
+        specifier: 0.6.0
+        version: 0.6.0(typescript@5.4.5)(vitest@1.6.0(@types/node@20.5.0)(jsdom@21.1.2))
       '@total-typescript/helpers':
         specifier: ^0.0.1
         version: 0.0.1
@@ -553,12 +553,12 @@ packages:
     resolution: {integrity: sha512-XCuKFP5PS55gnMVu3dty8KPatLqUoy/ZYzDzAGCQ8JNFCkLXzmI7vNHCR+XpbZaMWQK/vQubr7PkYq8g470J/A==}
     engines: {node: '>= 10'}
 
-  '@total-typescript/exercise-cli@0.5.1':
-    resolution: {integrity: sha512-6r7UUYyxJY4rkAeq98jW80gSAivhq9h32X3vhlehecWeVDNRZnZJyBN3U+YKmJUZccwO3d4yWXy50mvdU9M0BA==}
+  '@total-typescript/exercise-cli@0.6.0':
+    resolution: {integrity: sha512-lsXWyD7Gam5g1GcPPaxSdKI5b+xMcWD9/a+rD6+HCXo0/5g0Fj8tZLl7285ujCZ8Yf99KKcoT5sQEz5L1UPNyw==}
     hasBin: true
     peerDependencies:
-      typescript: ^5
-      vitest: ^1
+      typescript: '*'
+      vitest: '*'
 
   '@total-typescript/helpers@0.0.1':
     resolution: {integrity: sha512-90WHVlI4zDtfS9te1zZbvc69JFDv1SwsQqyc++7IP9HKhpRd/psMt6EhT0gxDqGgI0P+4z8tnjvCrUZCjn97gg==}
@@ -640,6 +640,7 @@ packages:
 
   abab@2.0.6:
     resolution: {integrity: sha512-j2afSsaIENvHZN2B8GOpF566vZ5WVk5opAiMTvWgaQT8DkbOqsTfvNAvHoRGU2zzP8cPoqys+xHTRDWW8L+/BA==}
+    deprecated: Use your platform's native atob() and btoa() methods instead
 
   abbrev@1.1.1:
     resolution: {integrity: sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==}
@@ -776,7 +777,7 @@ packages:
     engines: {node: '>=14'}
 
   concat-map@0.0.1:
-    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
   confbox@0.1.7:
     resolution: {integrity: sha512-uJcB/FKZtBMCJpK8MQji6bJHgu1tixKPxRLeGkNzBoOZzpnZUJm0jm2/sBDWcuBx1dYgxV4JU+g5hmNxCyAmdA==}
@@ -887,6 +888,7 @@ packages:
   domexception@4.0.0:
     resolution: {integrity: sha512-A2is4PLG+eeSfoTMA95/s4pvAoSo2mKtiM5jlHkAVewmiO8ISFTFKZjH7UAM1Atli/OT/7JHOrJRJiMKUZKYBw==}
     engines: {node: '>=12'}
+    deprecated: Use your platform's native DOMException instead
 
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
@@ -1000,11 +1002,6 @@ packages:
   fresh@0.5.2:
     resolution: {integrity: sha512-zJ2mQYM18rEFOudeV4GShTGIQ7RbzA7ozbU9I/XBpm7kqgMywgmylMwXHxZJmkVoYkna9d2pVXVXPdYTP9ej8Q==}
     engines: {node: '>= 0.6'}
-
-  fsevents@2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
-    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
-    os: [darwin]
 
   fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
@@ -2350,7 +2347,7 @@ snapshots:
 
   '@tootallnate/once@2.0.0': {}
 
-  '@total-typescript/exercise-cli@0.5.1(typescript@5.4.5)(vitest@1.6.0(@types/node@20.5.0)(jsdom@21.1.2))':
+  '@total-typescript/exercise-cli@0.6.0(typescript@5.4.5)(vitest@1.6.0(@types/node@20.5.0)(jsdom@21.1.2))':
     dependencies:
       chokidar: 3.5.3
       colors: 1.4.0
@@ -2601,7 +2598,7 @@ snapshots:
       normalize-path: 3.0.0
       readdirp: 3.6.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
 
   color-convert@1.9.3:
     dependencies:
@@ -2955,9 +2952,6 @@ snapshots:
   forwarded@0.2.0: {}
 
   fresh@0.5.2: {}
-
-  fsevents@2.3.2:
-    optional: true
 
   fsevents@2.3.3:
     optional: true
