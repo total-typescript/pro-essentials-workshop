@@ -6,9 +6,9 @@ specifiers:
   vite-plugin-checker: ^0.6.1
 
 devDependencies:
-  typescript: 5.1.6
+  typescript: 5.4.5
   vite: 4.4.9
-  vite-plugin-checker: 0.6.1_vxtpzrd3ijvkhh2fvnu2mlkwnm
+  vite-plugin-checker: 0.6.1_7ndvbnregrhjnbpddg7x2bjijm
 
 packages:
 
@@ -339,7 +339,7 @@ packages:
       normalize-path: 3.0.0
       readdirp: 3.6.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /color-convert/1.9.3:
@@ -440,8 +440,8 @@ packages:
       universalify: 2.0.0
     dev: true
 
-  /fsevents/2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
+  /fsevents/2.3.3:
+    resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     requiresBuild: true
@@ -601,7 +601,7 @@ packages:
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /run-parallel/1.2.0:
@@ -660,8 +660,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /typescript/5.1.6:
-    resolution: {integrity: sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==}
+  /typescript/5.4.5:
+    resolution: {integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
@@ -671,7 +671,7 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /vite-plugin-checker/0.6.1_vxtpzrd3ijvkhh2fvnu2mlkwnm:
+  /vite-plugin-checker/0.6.1_7ndvbnregrhjnbpddg7x2bjijm:
     resolution: {integrity: sha512-4fAiu3W/IwRJuJkkUZlWbLunSzsvijDf0eDN6g/MGh6BUK4SMclOTGbLJCPvdAcMOQvVmm8JyJeYLYd4//8CkA==}
     engines: {node: '>=14.16'}
     peerDependencies:
@@ -715,7 +715,7 @@ packages:
       semver: 7.5.4
       strip-ansi: 6.0.1
       tiny-invariant: 1.3.1
-      typescript: 5.1.6
+      typescript: 5.4.5
       vite: 4.4.9
       vscode-languageclient: 7.0.0
       vscode-languageserver: 7.0.0
@@ -755,7 +755,7 @@ packages:
       postcss: 8.4.27
       rollup: 3.28.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /vscode-jsonrpc/6.0.0:
