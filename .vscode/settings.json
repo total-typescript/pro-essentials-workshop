@@ -1,5 +1,6 @@
 {
   "typescript.tsdk": "node_modules/typescript/lib",
+  "explorer.sortOrder": "mixed",
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "markdownlint.config": {
     "default": false,
