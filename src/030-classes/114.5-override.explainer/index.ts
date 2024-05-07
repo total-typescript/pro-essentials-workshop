@@ -11,3 +11,5 @@ class SubClass extends BaseClass {
 }
 
 const instance = new SubClass();
+
+instance.method();
