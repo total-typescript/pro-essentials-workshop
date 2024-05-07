@@ -46,8 +46,8 @@ importers:
         version: 3.22.0
     devDependencies:
       '@total-typescript/exercise-cli':
-        specifier: 0.6.0
-        version: 0.6.0(typescript@5.4.5)(vitest@1.6.0(@types/node@20.5.0)(jsdom@21.1.2))
+        specifier: 0.6.1
+        version: 0.6.1(typescript@5.4.5)(vitest@1.6.0(@types/node@20.5.0)(jsdom@21.1.2))
       '@total-typescript/helpers':
         specifier: ^0.0.1
         version: 0.0.1
@@ -553,8 +553,8 @@ packages:
     resolution: {integrity: sha512-XCuKFP5PS55gnMVu3dty8KPatLqUoy/ZYzDzAGCQ8JNFCkLXzmI7vNHCR+XpbZaMWQK/vQubr7PkYq8g470J/A==}
     engines: {node: '>= 10'}
 
-  '@total-typescript/exercise-cli@0.6.0':
-    resolution: {integrity: sha512-lsXWyD7Gam5g1GcPPaxSdKI5b+xMcWD9/a+rD6+HCXo0/5g0Fj8tZLl7285ujCZ8Yf99KKcoT5sQEz5L1UPNyw==}
+  '@total-typescript/exercise-cli@0.6.1':
+    resolution: {integrity: sha512-6s/zzQ1LomYt3tlnHkTTZfavmn23Ye6p1ixgir08A9buDiKHnSxwpx1ErthJokyPhDsKZg5kK4OgE5gxI6znOQ==}
     hasBin: true
     peerDependencies:
       typescript: '*'
@@ -2347,7 +2347,7 @@ snapshots:
 
   '@tootallnate/once@2.0.0': {}
 
-  '@total-typescript/exercise-cli@0.6.0(typescript@5.4.5)(vitest@1.6.0(@types/node@20.5.0)(jsdom@21.1.2))':
+  '@total-typescript/exercise-cli@0.6.1(typescript@5.4.5)(vitest@1.6.0(@types/node@20.5.0)(jsdom@21.1.2))':
     dependencies:
       chokidar: 3.5.3
       colors: 1.4.0
