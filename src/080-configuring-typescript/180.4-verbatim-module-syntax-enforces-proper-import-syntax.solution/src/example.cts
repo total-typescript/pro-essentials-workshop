@@ -1,4 +1,11 @@
-// @ts-expect-error
-export const example = () => {
+// Fake ESM!
+
+const example = () => {
   return "hello!";
+};
+
+// True CJS:
+
+export = {
+  example,
 };
