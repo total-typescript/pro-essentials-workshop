@@ -3,3 +3,5 @@
 
 // moduleResolution: NodeNext DOES require '.js' extensions!
 import { example } from "./example.js";
+
+example();
