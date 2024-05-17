@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    /**
+     * For when you're using 'tsc' to transpile:
+     */
+    "module": "NodeNext",
+    // implies: "moduleResolution": "NodeNext",
+    /**
+     * For when another bundler is transpiling your code:
+     */
+    // "module": "Preserve",
+    // implies: "moduleResolution": "Bundler",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "outDir": "./dist"
+  }
+}

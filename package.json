@@ -590,7 +590,17 @@
     "e-202.7": "tt-cli run 202.7",
     "s-202.7": "tt-cli run 202.7 --solution",
     "e-072.5": "tt-cli run 072.5",
-    "s-072.5": "tt-cli run 072.5 --solution"
+    "s-072.5": "tt-cli run 072.5 --solution",
+    "e-086.4": "tt-cli run 086.4",
+    "s-086.4": "tt-cli run 086.4 --solution",
+    "e-114.5": "tt-cli run 114.5",
+    "s-114.5": "tt-cli run 114.5 --solution",
+    "e-180.2": "tt-cli run 180.2",
+    "s-180.2": "tt-cli run 180.2 --solution",
+    "e-180.4": "tt-cli run 180.4",
+    "s-180.4": "tt-cli run 180.4 --solution",
+    "e-180.6": "tt-cli run 180.6",
+    "s-180.6": "tt-cli run 180.6 --solution"
   },
   "dependencies": {
     "@tanstack/react-query": "^4.29.12",
