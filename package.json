@@ -1,6 +1,7 @@
 {
   "name": "pro-essentials-workshop",
   "version": "1.0.0",
+  "packageManager": "pnpm@9.3.0",
   "main": "index.js",
   "author": "Matt Pocock <team@totaltypescript.com>",
   "license": "GPL",
@@ -12,12 +13,11 @@
     "nodemon": "^3.0.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.8.7",
-    "typescript": "^5.4.5",
+    "typescript": "^5.5.2",
     "vite-tsconfig-paths": "^4.0.7",
     "vitest": "^1.6.0"
   },
   "scripts": {
-    "format-book": "tsx book-content/formatter/format.ts",
     "exercise": "tt-cli run",
     "e": "npm run exercise",
     "solution": "tt-cli run --solution",
@@ -600,7 +600,9 @@
     "e-180.4": "tt-cli run 180.4",
     "s-180.4": "tt-cli run 180.4 --solution",
     "e-180.6": "tt-cli run 180.6",
-    "s-180.6": "tt-cli run 180.6 --solution"
+    "s-180.6": "tt-cli run 180.6 --solution",
+    "e-179.7": "tt-cli run 179.7",
+    "s-179.7": "tt-cli run 179.7 --solution"
   },
   "dependencies": {
     "@tanstack/react-query": "^4.29.12",
