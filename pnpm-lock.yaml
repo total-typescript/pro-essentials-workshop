@@ -44,8 +44,8 @@ dependencies:
 
 devDependencies:
   '@total-typescript/exercise-cli':
-    specifier: 0.7.0
-    version: 0.7.0(typescript@5.5.3)(vitest@1.6.0)
+    specifier: 0.10.0
+    version: 0.10.0(typescript@5.5.3)(vitest@1.6.0)
   '@total-typescript/helpers':
     specifier: ^0.0.1
     version: 0.0.1
@@ -714,8 +714,8 @@ packages:
     engines: {node: '>= 10'}
     dev: true
 
-  /@total-typescript/exercise-cli@0.7.0(typescript@5.5.3)(vitest@1.6.0):
-    resolution: {integrity: sha512-AOkIQqZZkYoydhoKmhYvENSbWlk3D8zvuEnrMF68HMyKWYpvBWL8ZscZ8d3RZbULgjYDhwfSehNHW0HSmxKTjg==}
+  /@total-typescript/exercise-cli@0.10.0(typescript@5.5.3)(vitest@1.6.0):
+    resolution: {integrity: sha512-0itd7iIPPTtzvWEEz4a9b0m2tJLyHnfTfiJZESwoiMxy7XhUJ6sskhuBrY+xiWytYHW8HtMk9DVNDs7qZBgDgQ==}
     hasBin: true
     peerDependencies:
       typescript: '*'
@@ -723,7 +723,7 @@ packages:
     dependencies:
       chokidar: 3.6.0
       colors: 1.4.0
-      commander: 12.1.0
+      commander: 10.0.1
       fast-glob: 3.3.2
       jsonc-parser: 3.3.1
       prompts: 2.4.2
@@ -1118,9 +1118,9 @@ packages:
       delayed-stream: 1.0.0
     dev: true
 
-  /commander@12.1.0:
-    resolution: {integrity: sha512-Vw8qHK3bZM9y/P10u3Vib8o/DdkvA2OtPtZvD871QKjy74Wj1WSKFILMPRPSdUSx5RFK1arlJzEtA4PkFgnbuA==}
-    engines: {node: '>=18'}
+  /commander@10.0.1:
+    resolution: {integrity: sha512-y4Mg2tXshplEbSGzx7amzPwKKOCGuoSRP/CjEdwwk0FOGlUbq6lKuoyDZTNZkmxHdJtp54hdfY/JUrdL7Xfdug==}
+    engines: {node: '>=14'}
     dev: true
 
   /concat-map@0.0.1:
