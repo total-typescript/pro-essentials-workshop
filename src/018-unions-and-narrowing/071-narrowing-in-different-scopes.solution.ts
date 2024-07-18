@@ -9,6 +9,7 @@ const findUsersByName = (
   }[],
 ) => {
   const searchParamsName = searchParams.name;
+  // let searchParamsName = searchParams.name; // Also works with let!
   if (searchParamsName) {
     return users.filter((user) => {
       return user.name.includes(searchParamsName);
