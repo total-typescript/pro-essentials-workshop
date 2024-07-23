@@ -2,24 +2,14 @@ name: Renovate Checks
 on:
   push:
     branches:
-      - "**"
+      - "renovate/**"
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Determine if branch starts with renovate/
-        id: check_branch
-        run: |
-          if [[ "${GITHUB_REF##*/}" == renovate/* ]]; then
-            echo "is_renovate=true" >> $GITHUB_ENV
-          else
-            echo "is_renovate=false" >> $GITHUB_ENV
-          fi
-
       - name: Install pnpm
         uses: pnpm/action-setup@v3
-        if: ${{ env.is_renovate == 'false' }}
         with:
           version: 9
 
