@@ -2,10 +2,4 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "explorer.sortOrder": "mixed",
   "typescript.enablePromptUseWorkspaceTsdk": true,
-  "markdownlint.config": {
-    "default": false,
-    "MD001": true,
-    "MD022": true,
-    "MD038": true
-  }
 }
