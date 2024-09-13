@@ -9,8 +9,8 @@ dependencies:
     specifier: ^4.29.12
     version: 4.36.1(react-dom@18.3.1)(react@18.3.1)
   '@total-typescript/ts-reset':
-    specifier: ^0.5.1
-    version: 0.5.1
+    specifier: ^0.6.0
+    version: 0.6.0
   '@types/express':
     specifier: ^4.17.13
     version: 4.17.21
@@ -734,8 +734,8 @@ packages:
     resolution: {integrity: sha512-90WHVlI4zDtfS9te1zZbvc69JFDv1SwsQqyc++7IP9HKhpRd/psMt6EhT0gxDqGgI0P+4z8tnjvCrUZCjn97gg==}
     dev: true
 
-  /@total-typescript/ts-reset@0.5.1:
-    resolution: {integrity: sha512-AqlrT8YA1o7Ff5wPfMOL0pvL+1X+sw60NN6CcOCqs658emD6RfiXhF7Gu9QcfKBH7ELY2nInLhKSCWVoNL70MQ==}
+  /@total-typescript/ts-reset@0.6.0:
+    resolution: {integrity: sha512-HWZnkM+5z3INAUZMohVXvX8/vm9sjmfmV2NRAswvv5WsU2m+OZsHAVZ0fl8xf2QH9kyPkinghVW6g3DOQ2xt5Q==}
     dev: false
 
   /@types/body-parser@1.19.5:
