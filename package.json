@@ -9,7 +9,7 @@
     "@total-typescript/exercise-cli": "0.11.0",
     "@total-typescript/helpers": "^0.0.1",
     "cross-fetch": "^3.1.5",
-    "jsdom": "^21.1.1",
+    "jsdom": "^25.0.0",
     "nodemon": "^3.0.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.8.7",
