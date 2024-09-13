@@ -44,8 +44,8 @@ dependencies:
 
 devDependencies:
   '@total-typescript/exercise-cli':
-    specifier: 0.10.1
-    version: 0.10.1(typescript@5.5.4)(vitest@2.0.1)
+    specifier: 0.11.0
+    version: 0.11.0(typescript@5.6.2)(vitest@2.0.1)
   '@total-typescript/helpers':
     specifier: ^0.0.1
     version: 0.0.1
@@ -66,10 +66,10 @@ devDependencies:
     version: 2.8.8
   typescript:
     specifier: ^5.5.2
-    version: 5.5.4
+    version: 5.6.2
   vite-tsconfig-paths:
     specifier: ^4.0.7
-    version: 4.3.2(typescript@5.5.4)
+    version: 4.3.2(typescript@5.6.2)
   vitest:
     specifier: ^2.0.0
     version: 2.0.1(jsdom@21.1.2)
@@ -718,8 +718,8 @@ packages:
     engines: {node: '>= 10'}
     dev: true
 
-  /@total-typescript/exercise-cli@0.10.1(typescript@5.5.4)(vitest@2.0.1):
-    resolution: {integrity: sha512-1gSFgd0bacbz6kTeXD4j75uG1WQdzy3tQ66wH89MPyGDV//DrTYq5kXGghzjJLCzM5e4hFZ0NRCWCaogiB59wg==}
+  /@total-typescript/exercise-cli@0.11.0(typescript@5.6.2)(vitest@2.0.1):
+    resolution: {integrity: sha512-VTRT1UTedPEburo5uQZLDchnbUAciOKsnO89y7DAKJS3/NMAObi6gr1/SNlCcEmCRa/Rya2mLG+iYBYhnmYsYA==}
     hasBin: true
     peerDependencies:
       typescript: '*'
@@ -731,7 +731,7 @@ packages:
       fast-glob: 3.3.2
       jsonc-parser: 3.3.1
       prompts: 2.4.2
-      typescript: 5.5.4
+      typescript: 5.6.2
       vitest: 2.0.1(jsdom@21.1.2)
     dev: true
 
@@ -2998,7 +2998,7 @@ packages:
       punycode: 2.3.1
     dev: true
 
-  /tsconfck@3.1.1(typescript@5.5.4):
+  /tsconfck@3.1.1(typescript@5.6.2):
     resolution: {integrity: sha512-00eoI6WY57SvZEVjm13stEVE90VkEdJAFGgpFLTsZbJyW/LwFQ7uQxJHWpZ2hzSWgCPKc9AnBnNP+0X7o3hAmQ==}
     engines: {node: ^18 || >=20}
     hasBin: true
@@ -3008,7 +3008,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      typescript: 5.5.4
+      typescript: 5.6.2
     dev: true
 
   /tsx@4.16.2:
@@ -3074,8 +3074,8 @@ packages:
       possible-typed-array-names: 1.0.0
     dev: true
 
-  /typescript@5.5.4:
-    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
+  /typescript@5.6.2:
+    resolution: {integrity: sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
@@ -3173,7 +3173,7 @@ packages:
       - terser
     dev: true
 
-  /vite-tsconfig-paths@4.3.2(typescript@5.5.4):
+  /vite-tsconfig-paths@4.3.2(typescript@5.6.2):
     resolution: {integrity: sha512-0Vd/a6po6Q+86rPlntHye7F31zA2URZMbH8M3saAZ/xR9QoGN/L21bxEGfXdWmFdNkqPpRdxFT7nmNe12e9/uA==}
     peerDependencies:
       vite: '*'
@@ -3183,7 +3183,7 @@ packages:
     dependencies:
       debug: 4.3.5(supports-color@5.5.0)
       globrex: 0.1.2
-      tsconfck: 3.1.1(typescript@5.5.4)
+      tsconfck: 3.1.1(typescript@5.6.2)
     transitivePeerDependencies:
       - supports-color
       - typescript
