@@ -1,5 +1,8 @@
 {
   "typescript.tsdk": "node_modules/typescript/lib",
-  "explorer.sortOrder": "mixed",
   "typescript.enablePromptUseWorkspaceTsdk": true,
+  "github.copilot.enable": {
+    "*": false,
+  },
+  "explorer.sortOrder": "mixed",
 }
