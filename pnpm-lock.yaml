@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@tanstack/react-query':
-    specifier: ^4.29.12
-    version: 4.36.1(react-dom@18.3.1)(react@18.3.1)
+    specifier: ^5.0.0
+    version: 5.56.2(react@18.3.1)
   '@total-typescript/ts-reset':
     specifier: ^0.6.0
     version: 0.6.0
@@ -676,26 +676,17 @@ packages:
     dev: true
     optional: true
 
-  /@tanstack/query-core@4.36.1:
-    resolution: {integrity: sha512-DJSilV5+ytBP1FbFcEJovv4rnnm/CokuVvrBEtW/Va9DvuJ3HksbXUJEpI0aV1KtuL4ZoO9AVE6PyNLzF7tLeA==}
+  /@tanstack/query-core@5.56.2:
+    resolution: {integrity: sha512-gor0RI3/R5rVV3gXfddh1MM+hgl0Z4G7tj6Xxpq6p2I03NGPaJ8dITY9Gz05zYYb/EJq9vPas/T4wn9EaDPd4Q==}
     dev: false
 
-  /@tanstack/react-query@4.36.1(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-y7ySVHFyyQblPl3J3eQBWpXZkliroki3ARnBKsdJchlgt7yJLRDUcf4B8soufgiYt3pEQIkBWBx1N9/ZPIeUWw==}
+  /@tanstack/react-query@5.56.2(react@18.3.1):
+    resolution: {integrity: sha512-SR0GzHVo6yzhN72pnRhkEFRAHMsUo5ZPzAxfTMvUxFIDVS6W9LYUp6nXW3fcHVdg0ZJl8opSH85jqahvm6DSVg==}
     peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
-      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-      react-native: '*'
-    peerDependenciesMeta:
-      react-dom:
-        optional: true
-      react-native:
-        optional: true
+      react: ^18 || ^19
     dependencies:
-      '@tanstack/query-core': 4.36.1
+      '@tanstack/query-core': 5.56.2
       react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      use-sync-external-store: 1.2.2(react@18.3.1)
     dev: false
 
   /@total-typescript/exercise-cli@0.11.0(typescript@5.6.2)(vitest@2.1.1):
@@ -2957,14 +2948,6 @@ packages:
         optional: true
     dependencies:
       '@types/react': 18.3.3
-      react: 18.3.1
-    dev: false
-
-  /use-sync-external-store@1.2.2(react@18.3.1):
-    resolution: {integrity: sha512-PElTlVMwpblvbNqQ82d2n6RjStvdSoNe9FG28kNfz3WiXilJm4DdNkEzRhCZuIDwY8U08WVihhGR5iRqAwfDiw==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
-    dependencies:
       react: 18.3.1
     dev: false
 
