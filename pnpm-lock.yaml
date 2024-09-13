@@ -44,8 +44,8 @@ dependencies:
 
 devDependencies:
   '@total-typescript/exercise-cli':
-    specifier: 0.10.1
-    version: 0.10.1(typescript@5.6.2)(vitest@2.0.1)
+    specifier: 0.11.0
+    version: 0.11.0(typescript@5.6.2)(vitest@2.0.1)
   '@total-typescript/helpers':
     specifier: ^0.0.1
     version: 0.0.1
@@ -718,8 +718,8 @@ packages:
     engines: {node: '>= 10'}
     dev: true
 
-  /@total-typescript/exercise-cli@0.10.1(typescript@5.6.2)(vitest@2.0.1):
-    resolution: {integrity: sha512-1gSFgd0bacbz6kTeXD4j75uG1WQdzy3tQ66wH89MPyGDV//DrTYq5kXGghzjJLCzM5e4hFZ0NRCWCaogiB59wg==}
+  /@total-typescript/exercise-cli@0.11.0(typescript@5.6.2)(vitest@2.0.1):
+    resolution: {integrity: sha512-VTRT1UTedPEburo5uQZLDchnbUAciOKsnO89y7DAKJS3/NMAObi6gr1/SNlCcEmCRa/Rya2mLG+iYBYhnmYsYA==}
     hasBin: true
     peerDependencies:
       typescript: '*'
