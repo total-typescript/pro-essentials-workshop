@@ -31,7 +31,7 @@ dependencies:
     version: 18.3.1(react@18.3.1)
   react-hook-form:
     specifier: ^7.44.3
-    version: 7.52.1(react@18.3.1)
+    version: 7.53.0(react@18.3.1)
   react-select:
     specifier: ^5.7.3
     version: 5.8.0(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
@@ -2364,9 +2364,9 @@ packages:
       scheduler: 0.23.2
     dev: false
 
-  /react-hook-form@7.52.1(react@18.3.1):
-    resolution: {integrity: sha512-uNKIhaoICJ5KQALYZ4TOaOLElyM+xipord+Ha3crEFhTntdLvWZqVY49Wqd/0GiVCA/f9NjemLeiNPjG7Hpurg==}
-    engines: {node: '>=12.22.0'}
+  /react-hook-form@7.53.0(react@18.3.1):
+    resolution: {integrity: sha512-M1n3HhqCww6S2hxLxciEXy2oISPnAzxY7gvwVPrtlczTM/1dDadXgUxDpHMrMTblDOcm/AXtXxHwZ3jpg1mqKQ==}
+    engines: {node: '>=18.0.0'}
     peerDependencies:
       react: ^16.8.0 || ^17 || ^18 || ^19
     dependencies:
