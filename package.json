@@ -477,7 +477,7 @@
     "s-223": "tt-cli run 223 --solution"
   },
   "dependencies": {
-    "@tanstack/react-query": "^4.29.12",
+    "@tanstack/react-query": "^5.0.0",
     "@total-typescript/ts-reset": "^0.6.0",
     "@types/express": "^4.17.13",
     "@types/react": "^18.2.8",
