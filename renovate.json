@@ -1,21 +1,23 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base"],
+  "extends": [
+    "config:recommended"
+  ],
   "packageRules": [
     {
-      "packagePatterns": ["*"],
-      "excludePackagePatterns": [
-        "typescript",
-        "vitest",
-        "jsdom",
-        "prettier",
-        "vite-tsconfig-paths",
-        "react",
-        "@types/react",
-        "@total-typescript/exercise-cli",
-        "zod"
-      ],
-      "enabled": false
+      "enabled": false,
+      "matchPackageNames": [
+        "*",
+        "!/typescript/",
+        "!/vitest/",
+        "!/jsdom/",
+        "!/prettier/",
+        "!/vite-tsconfig-paths/",
+        "!/react/",
+        "!/@types/react/",
+        "!/@total-typescript/exercise-cli/",
+        "!/zod/"
+      ]
     }
   ]
 }
