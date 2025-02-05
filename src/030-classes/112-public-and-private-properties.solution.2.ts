@@ -45,7 +45,7 @@ it("Should not be able to access x and y from the outside", () => {
   const canvasNode = new CanvasNode();
 
   // @ts-expect-error
-  canvasNode.x;
+  canvasNode.#x;
   // @ts-expect-error
-  canvasNode.y;
+  canvasNode.#y;
 });
