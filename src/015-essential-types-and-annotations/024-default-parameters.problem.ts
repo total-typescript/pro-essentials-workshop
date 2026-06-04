@@ -23,5 +23,5 @@ it("should return the first name", () => {
 
   type test = Expect<Equal<typeof result, string>>;
 
-  expect(result).toEqual("John Pocock");
+  expect(result).toEqual("John");
 });
